@@ -20,7 +20,7 @@ class Life_Settings {
     save_virtualItems = true; //Save Virtual items (all sides)?
     saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit" }; //Array of virtual items that can be saved on your player.
     save_playerStats = true; //Save food, water and damage (all sides)?
-    save_civilian_weapons = false; //Allow civilians to save weapons on them?
+    save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = false; //Save civilian location?
     save_civilian_position_restart = false; //Save civilian location only between restarts. After a server restart you'll have to spawn again.
     /* !!!TO SAVE POSITION BETWEEN RESTARTS save_civilian_position MUST BE TRUE!!! */
@@ -45,7 +45,7 @@ class Life_Settings {
     drop_weapons_onDeath = false; //Set true to enable weapon dropping on death. False (default) will delete player weapons on death, allowing them to be revived with them instead
 
     /* Basic System Configurations */
-    donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
+    donor_level = true; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
     enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
     respawn_timer = 30; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.

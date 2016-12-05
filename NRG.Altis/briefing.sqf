@@ -6,11 +6,11 @@ player createDiarySubject ["changelog","Change Log"];
 player createDiarySubject ["serverrules","General Rules"];
 player createDiarySubject ["policerules","Police Procedures/Rules"];
 player createDiarySubject ["safezones","Safe Zones (No Killing)"];
-//player createDiarySubject ["civrules","Civilian Rules"];
+player createDiarySubject ["civrules","Civilian Rules"];
 player createDiarySubject ["illegalitems","Illegal Activity"];
-//player createDiarySubject ["gangrules","Gang Rules"];
-//player createDiarySubject ["terrorrules","Terrorism Rules"];
-player createDiarySubject ["controls","Controls"];
+player createDiarySubject ["gangrules","Gang Rules"];
+player createDiarySubject ["terrorrules","Terrorism Rules"];
+player createDiarySubject ["controls","Steuerung"];
 
 /*  Example
     player createDiaryRecord ["", //Container
@@ -541,41 +541,40 @@ The following items are illegal to posses:<br/><br/>
         ]
     ];
 
-// Controls Section
+// Steuerung
 
     player createDiaryRecord ["controls",
         [
-            "Police and medic controls",
+            "Polizei und Rettungsdienst",
                 "
-F: Vehicle siren.<br/>
-L: Speed radar (police only and weapon is P07 Suppressed).<br/>
-Left Shift + L: Activates siren lights.<br/>
-Left Shift + R: Restrain (police only).<br/><br/>
-                "
-        ]
-    ];
-    player createDiaryRecord ["controls",
-        [
-            "Civilian controls",
-                "
-Left Shift + G: Knock out / stun (Weapon required. Used for robbing).<br/>
-Spacebar: Place storage container.<br/><br/>
+F: Fahrzeug Sirene<br/>
+L: Radarmessung(Waffe "P07 Schallgedaämpft" muss ausgerüstet sein)<br/>
+Left Shift + L: Blaulicht<br/>
+Left Shift + R: Festnehmen<br/><br/>
                 "
         ]
     ];
     player createDiaryRecord ["controls",
         [
-            "General controls",
+            "Zivilisten",
                 "
-Y: Open Player Menu.<br/>
-U: Lock and unlock vehicles and houses.<br/>
-T: Vehicle trunk and house virtual item storage.<br/>
-Left Shift + B: Surrender (hands on head).<br/>
-Left Windows: Main interaction key. Used for interacting with objects like vehicles, houses, ATMs, and restrained players. Can be rebound to a single key like H by pressing ESC->Configure->Controls->Custom->Use Action 10.<br/>
-Left Shift + H: Holsters the weapon in your hands.<br/>
-Left Ctrl + H: Revert holster action.<br/>
-Shift + Spacebar: Jump.<br/>
-Left Shift + O: (un)fade sound (ear plugs).<br/><br/>
+Left Shift + G: Umschlagen (Waffe benötigt)<br/>
+Spacebar: Kiste platzieren<br/><br/>
+                "
+        ]
+    ];
+    player createDiaryRecord ["controls",
+        [
+            "Generell",
+                "
+Z: Menü öffnen<br/>
+U: Auf/Absperren<br/>
+T: Kofferraum<br/>
+Left Shift + B: Ergeben<br/>
+Left Windows: Interaktionstaste<br/>
+Left Shift + H: Waffe holstern<br/>
+Left Ctrl + H: Waffe ziehen<br/>
+Left Shift + O: Ohrstöpsel<br/><br/>
                 "
         ]
     ];

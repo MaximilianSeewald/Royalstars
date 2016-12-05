@@ -1,10 +1,10 @@
 #include "..\..\script_macros.hpp"
 /*
     File: fn_vehicleShopMenu.sqf
-    Author: Bryan "Tonic" Boardwine
+    Author: Loudless
 
     Description:
-    Blah
+    Shop Checker überarbeitet + String ausgebessert
 */
 
 (_this select 3) params [
@@ -24,7 +24,7 @@ if (_shop isEqualTo "") exitWith {};
 if (!(_sideCheck isEqualTo sideUnknown) && {!(playerSide isEqualTo _sideCheck)}) exitWith {hint localize "STR_Shop_Veh_NotAllowed"};
 
 private _conditions = M_CONFIG(getText,"CarShops",_shop,"conditions");
-if !([_conditions] call life_fnc_levelCheck) exitWith {hint localize "STR_Shop_Veh_NotAllowed"};
+if !([_conditions] call life_fnc_levelCheck) exitWith {hint localize "STR_Shop_Veh_NoLicense"};
 
 if (LIFE_SETTINGS(getNumber,"vehicleShop_3D") isEqualTo 1) then {
   createDialog "Life_Vehicle_Shop_v2_3D";

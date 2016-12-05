@@ -20,7 +20,7 @@ class Clothing {
         conditions = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "U_C_Poloshirt_stripped", "Poloshirt stripped", 125, "" },
             { "U_C_Poloshirt_redwhite", "Poloshirt Red/White", 150, "" },
             { "U_C_Poloshirt_salmon", "Poloshirt Salmon", 175, "" },
@@ -37,7 +37,7 @@ class Clothing {
             { "U_NikosAgedBody", "Casual Wears", 5000, "" }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "H_Bandanna_camo", "Camo Bandanna", 120, "" },
             { "H_Bandanna_surfer", "Surfer Bandanna", 130, "" },
             { "H_Bandanna_khk", "Khaki Bandanna", 145, "" },
@@ -60,7 +60,7 @@ class Clothing {
             { "H_Booniehat_tan", "", 425, "" }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "G_Shades_Black", "", 20, "" },
             { "G_Shades_Blue", "", 20, "" },
             { "G_Shades_Green", "", 20, "" },
@@ -80,10 +80,10 @@ class Clothing {
             { "G_Lady_Blue", "", 150, "" }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "B_OutdoorPack_blk", "", 500, "" },
             { "B_AssaultPack_khk", "", 2000, "" },
             { "B_AssaultPack_dgtl", "", 2000, "" },
@@ -117,14 +117,14 @@ class Clothing {
         conditions = "";
         side = "cop";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, "" },
-            { "U_Rangemaster", "Cop Uniform", 25, "" },
+            { "NONE", "Ausziehen", 0, "" },
+            { "U_Rangemaster", "Rekrut", 25, "" },
             { "U_B_CombatUniform_mcam_tshirt", "", 350, "call life_coplevel >= 1" },
             { "U_B_CombatUniform_mcam_worn", "", 550, "call life_coplevel >= 2" },
             { "U_B_survival_uniform", "", 1250, "call life_coplevel >= 1" }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "H_Cap_police", "", 25, "" },
             { "H_Beret_blk_POLICE", "", 50, "call life_coplevel >= 2" },
             { "H_HelmetB_plain_mcamo", "", 75, "call life_coplevel >= 1" },
@@ -132,7 +132,7 @@ class Clothing {
             { "H_Booniehat_mcamo", "", 120, "call life_coplevel >= 1" }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "G_Squares", "", 10, "" },
             { "G_Shades_Blue", "", 20, "" },
             { "G_Sport_Blackred", "", 20, "" },
@@ -148,13 +148,13 @@ class Clothing {
             { "G_Lady_Blue", "", 150, "" }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "V_Rangemaster_belt", "", 800, "" },
             { "V_TacVest_blk_POLICE", "", 1000, "call life_coplevel >= 1" },
             { "V_PlateCarrier2_rgr", "", 1500, "call life_coplevel >= 2" }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "B_FieldPack_cbr", "", 500, "" },
             { "B_AssaultPack_cbr", "", 700, "" },
             { "B_Kitbag_cbr", "", 800, "" },
@@ -168,22 +168,22 @@ class Clothing {
         conditions = "license_civ_dive";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "U_B_Wetsuit", "", 2000, "" }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "G_Diving", "", 500, "" }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "V_RebreatherB", "", 5000, "" }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
     };
 
@@ -192,20 +192,20 @@ class Clothing {
         conditions = "license_civ_gun";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "V_Rangemaster_belt", "", 4900, "" }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
     };
 
@@ -214,20 +214,20 @@ class Clothing {
         conditions = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "V_Rangemaster_belt", "", 1900, "" }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
     };
 
@@ -236,22 +236,22 @@ class Clothing {
         conditions = "";
         side = "med";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "U_Rangemaster", "EMS Uniform", 50, "" }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "H_Cap_blu", "", 10, "" }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "G_Shades_Blue", "", 10, "" }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "B_FieldPack_oli", "EMS Backpack", 3000, "" }
         };
     };
@@ -261,7 +261,7 @@ class Clothing {
         conditions = "license_civ_rebel";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "U_IG_Guerilla1_1", "", 5000, "" },
             { "U_I_G_Story_Protagonist_F", "", 7500, "" },
             { "U_I_G_resistanceLeader_F", "", 11500, "" },
@@ -271,7 +271,7 @@ class Clothing {
             { "U_O_GhillieSuit", "", 50000, "" }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "H_Bandanna_camo", "", 650, "" },
             { "H_ShemagOpen_khk", "", 800, "" },
             { "H_ShemagOpen_tan", "", 850, "" },
@@ -280,7 +280,7 @@ class Clothing {
             { "H_HelmetO_ocamo", "", 2500, "" }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "G_Shades_Black", "", 20, "" },
             { "G_Shades_Blue", "", 20, "" },
             { "G_Sport_Blackred", "", 25, "" },
@@ -304,13 +304,13 @@ class Clothing {
             { "G_Bandanna_tan", "", 150, "" }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "V_BandollierB_cbr", "", 4500, "" },
             { "V_HarnessO_brn", "", 7500, "" },
             { "V_TacVest_khk", "", 12500, "" }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "B_OutdoorPack_blk", "", 500, "" },
             { "B_AssaultPack_khk", "", 2000, "" },
             { "B_AssaultPack_dgtl", "", 2000, "" },
@@ -344,7 +344,7 @@ class Clothing {
         conditions = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "U_C_Driver_1_black", "", 1500, "" },
             { "U_C_Driver_1_blue", "", 1500, "" },
             { "U_C_Driver_1_red", "", 1500, "" },
@@ -358,7 +358,7 @@ class Clothing {
             { "U_C_Driver_4", "", 3700, "" }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, "" },
+            { "NONE", "Ausziehen", 0, "" },
             { "H_RacingHelmet_1_black_F", "", 1000, "" },
             { "H_RacingHelmet_1_red_F", "", 1000, "" },
             { "H_RacingHelmet_1_white_F", "", 1000, "" },
@@ -371,13 +371,13 @@ class Clothing {
             { "H_RacingHelmet_4_F", "", 2500, "" }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, "" }
+            { "NONE", "Ausziehen", 0, "" }
         };
     };
 };

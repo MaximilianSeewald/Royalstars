@@ -314,7 +314,7 @@
     </Package>
     <Package name="Global">
         <Key ID="STR_Global_Close">
-            <Original>Close</Original>
+            <Original>Schließen</Original>
             <Czech>Zavřít</Czech>
             <Spanish>Cerrar</Spanish>
             <Russian></Russian>
@@ -380,7 +380,7 @@
             <German>Bewaffnung</German>
         </Key>
         <Key ID="STR_Global_Give">
-            <Original>Give</Original>
+            <Original>Geben</Original>
             <Czech>Dát</Czech>
             <Spanish>Dar</Spanish>
             <Russian></Russian>
@@ -391,7 +391,7 @@
             <Polish>Daj</Polish>
         </Key>
         <Key ID="STR_Global_Use">
-            <Original>Use</Original>
+            <Original>Benutzen</Original>
             <Czech>Použití</Czech>
             <Spanish>Usar</Spanish>
             <Russian></Russian>
@@ -402,7 +402,7 @@
             <Polish>Użyj</Polish>
         </Key>
         <Key ID="STR_Global_Remove">
-            <Original>Remove</Original>
+            <Original>Entfernen</Original>
             <Czech>Odstranit</Czech>
             <Spanish>Remover</Spanish>
             <Russian></Russian>
@@ -2281,7 +2281,7 @@
     </Package>
     <Package name="Player_Menu">
         <Key ID="STR_PM_Title">
-            <Original>Player Menu</Original>
+            <Original>Spieler Menü</Original>
             <Czech>Nabídka přehrávače</Czech>
             <Spanish>Menu de Jugador</Spanish>
             <Russian></Russian>
@@ -2292,7 +2292,7 @@
             <Polish>Menu gracza</Polish>
         </Key>
         <Key ID="STR_PM_cItems">
-            <Original>Current Items</Original>
+            <Original>Aktuelle Items</Original>
             <Czech>Aktuální položky</Czech>
             <Spanish>Objetos Actuales</Spanish>
             <Russian></Russian>
@@ -2303,7 +2303,7 @@
             <Polish>Aktualne wyposażenie:</Polish>
         </Key>
         <Key ID="STR_PM_Licenses">
-            <Original>Licenses</Original>
+            <Original>Lizenzen</Original>
             <Czech>licencí</Czech>
             <Spanish>Licencias</Spanish>
             <Russian></Russian>
@@ -2314,7 +2314,7 @@
             <Polish>Licencje</Polish>
         </Key>
         <Key ID="STR_PM_MoneyStats">
-            <Original>Money Stats</Original>
+            <Original>Geld</Original>
             <Czech>peníze Statistiky</Czech>
             <Spanish>Dinero</Spanish>
             <Russian></Russian>
@@ -2325,7 +2325,7 @@
             <Polish>Twoje środki</Polish>
         </Key>
         <Key ID="STR_PM_MyGang">
-            <Original>My Gang</Original>
+            <Original>Meine Gang</Original>
             <Czech>My Gang</Czech>
             <Spanish>Mi Pandilla</Spanish>
             <Russian></Russian>
@@ -2336,7 +2336,7 @@
             <Polish>Gang</Polish>
         </Key>
         <Key ID="STR_PM_WantedList">
-            <Original>Wanted List</Original>
+            <Original>Fahndungsliste</Original>
             <Czech>seznamu hledaných</Czech>
             <Spanish>Lista de Busqueda</Spanish>
             <Russian></Russian>
@@ -2347,7 +2347,7 @@
             <Polish>Poszukiwani</Polish>
         </Key>
         <Key ID="STR_PM_CellPhone">
-            <Original>Cell Phone</Original>
+            <Original>Telefon</Original>
             <Czech>Mobilní telefon</Czech>
             <Spanish>Celular</Spanish>
             <Russian></Russian>
@@ -2358,7 +2358,7 @@
             <Polish>Telefon</Polish>
         </Key>
         <Key ID="STR_PM_KeyChain">
-            <Original>Key Chain</Original>
+            <Original>Schlüssel</Original>
             <Czech>Klíčenka</Czech>
             <Spanish>Llavero</Spanish>
             <Russian></Russian>
@@ -2369,7 +2369,7 @@
             <Polish>Klucze</Polish>
         </Key>
         <Key ID="STR_PM_AdminMenu">
-            <Original>Admin Menu</Original>
+            <Original>Admin Menü</Original>
             <Czech>Nabídka admin</Czech>
             <Spanish>Menu Admin</Spanish>
             <Russian></Russian>
@@ -2380,7 +2380,7 @@
             <Polish>Admin Menu</Polish>
         </Key>
         <Key ID="STR_PM_SyncData">
-            <Original>Sync Data</Original>
+            <Original>Speichern</Original>
             <Czech>synchronizace dat</Czech>
             <Spanish>Sincronizar</Spanish>
             <Russian></Russian>
@@ -2393,7 +2393,7 @@
     </Package>
     <Package name="Settings_Menu">
         <Key ID="STR_SM_Title">
-            <Original>Settings Menu</Original>
+            <Original>Einstellungen</Original>
             <Czech>Nabídka Nastavení</Czech>
             <Spanish>Configuración</Spanish>
             <Russian></Russian>
@@ -8803,7 +8803,7 @@
             <Polish>Nie masz tyle pieniędzy by kupić ten pojazd.\n\nBrakuje: $%1</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_NoLicense">
-            <Original>You do not have the required license and/or level!</Original>
+            <Original>Du besitzt die benötigte Lizenz nicht!</Original>
             <Czech>Nemáte požadovanou licenci!</Czech>
             <Spanish>No tienes la licencia requerida!</Spanish>
             <Russian></Russian>
@@ -8957,7 +8957,7 @@
             <Polish>Kolor</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_NotAllowed">
-            <Original>You are not allowed to use this shop!</Original>
+            <Original>Du bist nicht befugt, diesen Shop zu benutzen!</Original>
             <Czech>Ty jsou není dovoleno používat tento obchod!</Czech>
             <Spanish>No tienes permiso de usar esta tienda!</Spanish>
             <Russian></Russian>

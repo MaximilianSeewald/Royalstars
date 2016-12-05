@@ -29,7 +29,7 @@ if !(_shopSide isEqualTo "") then {
     if !(_flag isEqualTo _shopSide) then {_exit = true;};
 };
 
-if (_exit) exitWith {};
+if (_exit) exitWith {hint localize "STR_Shop_Veh_NotAllowed";};
 
 _exit = [_conditions] call life_fnc_levelCheck;
 if !(_exit) exitWith {hint localize "STR_Shop_Veh_NoLicense";};
