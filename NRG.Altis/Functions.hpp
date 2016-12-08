@@ -22,7 +22,6 @@ class Life_Client_Core {
         class setupActions {};
         class setupEVH {};
         class survival {};
-        class welcomeNotification {};
     };
 
     class Actions {
@@ -56,28 +55,12 @@ class Life_Client_Core {
         class searchVehAction {};
         class seizePlayerAction {};
         class serviceChopper {};
+		class sitDown {};
         class stopEscorting {};
         class storeVehicle {};
         class surrender {};
         class ticketAction {};
         class unrestrain {};
-    };
-
-    class Admin {
-        file = "core\admin";
-        class adminCompensate {};
-        class adminDebugCon {};
-        class adminFreeze {};
-        class admingetID {};
-        class adminGodMode {};
-        class adminid {};
-        class admininfo {};
-        class adminMarkers {};
-        class adminMenu {};
-        class adminQuery {};
-        class adminSpectate {};
-        class adminTeleport {};
-        class adminTpHere {};
     };
 
     class Civilian {
@@ -112,6 +95,7 @@ class Life_Client_Core {
         class copLights {};
         class copLoadout {};
         class copMarkers {};
+		class copOpener {};
         class copSearch {};
         class copSiren {};
         class doorAnimate {};

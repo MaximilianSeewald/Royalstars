@@ -306,3 +306,4 @@ if ((life_clothing_purchase select 4) isEqualTo -1) then {
 
 life_clothing_purchase = [-1,-1,-1,-1,-1];
 [] call life_fnc_saveGear;
+[] call life_fnc_playerSkins;

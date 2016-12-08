@@ -118,18 +118,24 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Ausziehen", 0, "" },
-            { "U_Rangemaster", "Rekrut", 25, "" },
-            { "U_B_CombatUniform_mcam_tshirt", "", 350, "call life_coplevel >= 1" },
-            { "U_B_CombatUniform_mcam_worn", "", 550, "call life_coplevel >= 2" },
-            { "U_B_survival_uniform", "", 1250, "call life_coplevel >= 1" }
+            { "U_Rangemaster", "Rekrut", 25, "call life_coplevel < 11" },
+			{ "U_B_CombatUniform_mcam", "Hauptmeister", 350, "call life_coplevel > 2 && call life_coplevel < 11" },
+			{ "U_B_SpecopsUniform_sgg", "Oberkommissar", 350, "call life_coplevel > 4 && call life_coplevel < 11" },
+            { "U_B_CombatUniform_mcam_vest", "Agent", 350, "call life_coplevel > 10 && call life_coplevel < 14" },
+			{ "U_B_CombatUniform_mcam", "Special Agent", 350, "call life_coplevel > 11 && call life_coplevel < 14" },
+			{ "U_B_CombatUniform_mcam", "Soldat", 350, "call life_coplevel > 13 && call life_coplevel < 15" },
+			{ "U_B_CombatUniform_mcam_worn", "Sergeant(Camo)", 350, "call life_coplevel > 14" },
+			{ "U_B_CombatUniform_mcam", "Sergeant", 350, "call life_coplevel > 14" },
+			{ "U_I_OfficerUniform", "Major", 350, "call life_coplevel > 17" },
+			{ "U_O_OfficerUniform_ocamo", "Major(Camo)", 350, "call life_coplevel > 17" }
         };
         headgear[] = {
             { "NONE", "Ausziehen", 0, "" },
-            { "H_Cap_police", "", 25, "" },
-            { "H_Beret_blk_POLICE", "", 50, "call life_coplevel >= 2" },
-            { "H_HelmetB_plain_mcamo", "", 75, "call life_coplevel >= 1" },
-            { "H_MilCap_mcamo", "", 100, "call life_coplevel >= 2" },
-            { "H_Booniehat_mcamo", "", 120, "call life_coplevel >= 1" }
+            { "H_Cap_police", "", 25, "call life_coplevel < 11" },
+            { "H_Beret_blk_POLICE", "", 50, "call life_coplevel < 11" },
+            { "H_HelmetB_plain_mcamo", "", 75, "call life_coplevel > 13" },
+            { "H_MilCap_mcamo", "", 100, "call life_coplevel > 13" },
+            { "H_Booniehat_mcamo", "", 120, "call life_coplevel > 13" }
         };
         goggles[] = {
             { "NONE", "Ausziehen", 0, "" },
@@ -150,8 +156,8 @@ class Clothing {
         vests[] = {
             { "NONE", "Ausziehen", 0, "" },
             { "V_Rangemaster_belt", "", 800, "" },
-            { "V_TacVest_blk_POLICE", "", 1000, "call life_coplevel >= 1" },
-            { "V_PlateCarrier2_rgr", "", 1500, "call life_coplevel >= 2" }
+            { "V_TacVest_blk_POLICE", "", 1000, "call life_coplevel < 11" },
+            { "V_PlateCarrier2_rgr", "", 1500, "call life_coplevel > 13" }
         };
         backpacks[] = {
             { "NONE", "Ausziehen", 0, "" },

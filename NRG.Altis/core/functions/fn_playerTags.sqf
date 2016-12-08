@@ -42,16 +42,49 @@ private _index = -1;
             if (count _sPos > 1 && {_distance < 15}) then {
                 _text = switch (true) do {
                     case (_x in (units group player) && playerSide isEqualTo civilian): {format ["<t color='#00FF00'>%1</t>",(_x getVariable ["realname",name _x])];};
-                    case (side _x isEqualTo west && {!isNil {_x getVariable "rank"}}): {format ["<img image='%1' size='1'></img> %2",switch ((_x getVariable "rank")) do {
-                        case 2: {"\a3\ui_f\data\gui\cfg\Ranks\corporal_gs.paa"};
-                        case 3: {"\a3\ui_f\data\gui\cfg\Ranks\sergeant_gs.paa"};
-                        case 4: {"\a3\ui_f\data\gui\cfg\Ranks\lieutenant_gs.paa"};
-                        case 5: {"\a3\ui_f\data\gui\cfg\Ranks\captain_gs.paa"};
-                        case 6: {"\a3\ui_f\data\gui\cfg\Ranks\major_gs.paa"};
-                        case 7: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
-                        case 8: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
-                        default {"\a3\ui_f\data\gui\cfg\Ranks\private_gs.paa"};
-                        },_x getVariable ["realname",name _x]]};
+                    case (side _x isEqualTo west && {!isNil {_x getVariable "rank"}}): {format ["<img image='%1' size='1'></img> <t color='#005AFF'>%3</t><br/>%2",switch ((_x getVariable "rank")) do {
+                        case 2: {"icons\ranks\rekrut.paa"};
+                        case 3: {"icons\ranks\wachtmeister.paa"};
+                        case 4: {"icons\ranks\hauptmeister.paa"};
+                        case 5: {"icons\ranks\kommissar.paa"};
+                        case 6: {"icons\ranks\oberkommissar.paa"};
+                        case 7: {"icons\ranks\hauptkommissar.paa"};
+                        case 8: {"icons\ranks\polizeirat.paa"};
+						case 9: {"icons\ranks\polizeidirektor.paa"};
+						case 10: {"icons\ranks\polizeipraesident.paa"};
+						case 11: {"icons\ranks\fbi.paa"};
+                        case 12: {"icons\ranks\fbi.paa"};
+                        case 13: {"icons\ranks\fbi.paa"};
+                        case 14: {"icons\ranks\private.paa"};
+                        case 15: {"icons\ranks\corporal.paa"};
+                        case 16: {"icons\ranks\sergeant.paa"};
+                        case 17: {"icons\ranks\staff_sergeant.paa"};
+						case 18: {"icons\ranks\captain.paa"};
+						case 19: {"icons\ranks\major.paa"};
+						case 20: {"icons\ranks\general.paa"};
+                        default {"icons\ranks\anwaerter.paa"};
+                        },_x getVariable ["realname",name _x],switch ((_x getVariable "rank")) do {
+							case 2: {"Rekrut"};
+							case 3: {"Wachtmeister"};
+							case 4: {"Hauptmeister"};
+							case 5: {"Kommissar"};
+							case 6: {"Oberkommissar"};
+							case 7: {"Hauptkommissar"};
+							case 8: {"Polizeirat"};
+							case 9: {"Polizeidirektor"};
+							case 10: {"Polizeipräsident"};
+							case 11: {"Agent"};
+							case 12: {"Special Agent"};
+							case 13: {"Supervising Agent"};
+							case 14: {"Private"};
+							case 15: {"Corporal"};
+							case 16: {"Sergeant"};
+							case 17: {"Staff Sergeant"};
+							case 18: {"Captain"};
+							case 19: {"Major"};
+							case 20: {"General"};
+							default {"Anwärter"};
+							}]};
                     case (side _x isEqualTo independent): {format ["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x getVariable ["realname",name _x]]};
                     default {
                         if (!isNil {(group _x) getVariable "gang_name"}) then {

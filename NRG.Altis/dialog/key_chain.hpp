@@ -6,22 +6,13 @@ class Life_key_management {
     onLoad = "[] spawn life_fnc_keyMenu;";
 
     class controlsBackground {
-        class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+        class MainBackground: Life_RscPicture {
             idc = -1;
-            x = 0.1;
-            y = 0.2;
-            w = 0.6;
-            h = (1 / 25);
-        };
-
-        class MainBackground: Life_RscText {
-            colorBackground[] = {0, 0, 0, 0.7};
-            idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.6;
-            h = 0.6 - (22 / 250);
+			text = "textures\tablet\tablet.paa";
+			x = 0.258501 * safezoneW + safezoneX;
+			y = 0.0716 * safezoneH + safezoneY;
+			w = 0.485625 * safezoneW;
+			h = 0.854 * safezoneH;
         };
     };
 
@@ -29,9 +20,9 @@ class Life_key_management {
         class Title: Life_RscTitle {
             colorBackground[] = {0, 0, 0, 0};
             idc = -1;
-            text = "$STR_Keys_Title";
-            x = 0.1;
-            y = 0.2;
+            text = "Schlüsselbund";
+            x = 0.415;
+            y = 0.18;
             w = 0.6;
             h = (1 / 25);
         };
@@ -40,25 +31,43 @@ class Life_key_management {
             idc = 2701;
             text = "";
             sizeEx = 0.035;
-            x = 0.12;
+            x = 0.22;
             y = 0.26;
             w = 0.56;
             h = 0.370;
         };
 
+		class CloseButtonPictureKey: life_RscPicture
+		{
+			idc = -1;
+			text = "textures\tablet\close.paa";
+			x = 0.485 * safezoneW + safezoneX;
+			y = 0.6988 * safezoneH + safezoneY;
+			w = 0.0315 * safezoneW;
+			h = 0.056 * safezoneH;
+		};
+		
         class CloseButtonKey: Life_RscButtonMenu {
             idc = -1;
-            text = "$STR_Global_Close";
             onButtonClick = "closeDialog 0;";
-            x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
+			x = 0.485 * safezoneW + safezoneX;
+			y = 0.6988 * safezoneH + safezoneY;
+			w = 0.0315 * safezoneW;
+			h = 0.056 * safezoneH;
+			tooltip = "Schließen";
+			colorBackground[] = {-1,-1,-1,-1};
+			colorBackgroundFocused[] = {1,1,1,0.12};
+			colorBackground2[] = {0.75,0.75,0.75,0.2};
+			color[] = {1,1,1,1};
+			colorFocused[] = {0,0,0,0};
+			color2[] = {0,0,0,0};
+			colorText[] = {1,1,1,1};
+			colorDisabled[] = {1,0,0,0.1};
         };
 
         class NearPlayers: Life_RscCombo {
             idc = 2702;
-            x = 0.26;
+            x = 0.505;
             y = 0.645;
             w = 0.275;
             h = 0.03;
@@ -66,22 +75,21 @@ class Life_key_management {
 
         class DropKey: Life_RscButtonMenu {
             idc = -1;
-            text = "$STR_Keys_DropKey";
+            text = "Löschen";
             onButtonClick = "[] call life_fnc_keyDrop";
-            x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
+            x = 0.218;
+            y = 0.642;
+            w = (6.25 / 47);
             h = (1 / 25);
         };
 
         class GiveKey: Life_RscButtonMenu {
             idc = 2703;
-            text = "$STR_Keys_GiveKey";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+            text = "Geben";
             onButtonClick = "[] call life_fnc_keyGive";
-            x = 0.32;
-            y = 0.69;
-            w = (6.25 / 40);
+            x = 0.355;
+            y = 0.642;
+            w = (6.25 / 47);
             h = (1 / 25);
         };
     };

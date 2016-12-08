@@ -108,7 +108,7 @@ class CarShops {
 
     class med_air_hs {
         side = "med";
-        conditions = "license_civ_mAir";
+        conditions = "license_med_mAir";
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" }

@@ -325,7 +325,7 @@
             <Polish>Zamknij</Polish>
         </Key>
         <Key ID="STR_Global_Sell">
-            <Original>Sell</Original>
+            <Original>Verkaufen</Original>
             <Czech>Prodat</Czech>
             <Spanish>Vender</Spanish>
             <Russian></Russian>
@@ -336,7 +336,7 @@
             <Polish>Sprzedaj</Polish>
         </Key>
         <Key ID="STR_Global_Buy">
-            <Original>Buy</Original>
+            <Original>Kaufen</Original>
             <Czech>Koupit</Czech>
             <Spanish>Comprar</Spanish>
             <Russian></Russian>
@@ -347,7 +347,7 @@
             <Polish>Kup</Polish>
         </Key>
         <Key ID="STR_Global_Mags">
-            <Original>Magazines</Original>
+            <Original>Magazine</Original>
             <Czech>časopisy</Czech>
             <French>Chargeurs</French>
             <Spanish>Cargadores</Spanish>
@@ -358,7 +358,7 @@
             <German>Magazine</German>
         </Key>
         <Key ID="STR_Global_Accs">
-            <Original>Accessories</Original>
+            <Original>Zubehör</Original>
             <Czech>Příslušenství</Czech>
             <French>Accessoires</French>
             <Spanish>Accesorios</Spanish>
@@ -369,7 +369,7 @@
             <German>Zubehör</German>
         </Key>
         <Key ID="STR_Global_Weapons">
-            <Original>Weapons</Original>
+            <Original>Waffen</Original>
             <Czech>Zbraně</Czech>
             <French>Armes</French>
             <Spanish>Armas</Spanish>
@@ -377,7 +377,7 @@
             <Polish>Broń</Polish>
             <Russian></Russian>
             <Portuguese>Armas</Portuguese>
-            <German>Bewaffnung</German>
+            <German>Waffen</German>
         </Key>
         <Key ID="STR_Global_Give">
             <Original>Geben</Original>
@@ -402,18 +402,18 @@
             <Polish>Użyj</Polish>
         </Key>
         <Key ID="STR_Global_Remove">
-            <Original>Entfernen</Original>
+            <Original>Löschen</Original>
             <Czech>Odstranit</Czech>
             <Spanish>Remover</Spanish>
             <Russian></Russian>
-            <German>Entfernen</German>
+            <German>Löschen</German>
             <French>Supprimer</French>
             <Italian>Rimuovi</Italian>
             <Portuguese>Remover</Portuguese>
             <Polish>Usuń</Polish>
         </Key>
         <Key ID="STR_Global_Settings">
-            <Original>Settings</Original>
+            <Original>Einstellungen</Original>
             <Czech>Nastavení</Czech>
             <Spanish>Configuración</Spanish>
             <Russian></Russian>
@@ -424,7 +424,7 @@
             <Polish>Opcje</Polish>
         </Key>
         <Key ID="STR_Global_RentVeh">
-            <Original>Rent</Original>
+            <Original>Mieten</Original>
             <Czech>Nájemné</Czech>
             <Spanish>Rentar</Spanish>
             <Russian></Russian>
@@ -435,7 +435,7 @@
             <Polish>Wynajmij</Polish>
         </Key>
         <Key ID="STR_Global_Retrieve">
-            <Original>Retrieve</Original>
+            <Original>Abrufen</Original>
             <Czech>získat</Czech>
             <Spanish>Recuperar</Spanish>
             <Russian></Russian>
@@ -446,7 +446,7 @@
             <Polish>Odzyskaj</Polish>
         </Key>
         <Key ID="STR_Global_NoSelection">
-            <Original>You did not select anything.</Original>
+            <Original>Du hast nichts ausgewählt.</Original>
             <Czech>Nevybrali jste nic.</Czech>
             <Spanish>No seleccionastes algo.</Spanish>
             <Russian></Russian>
@@ -457,7 +457,7 @@
             <Polish>Niczego nie zaznaczyłeś.</Polish>
         </Key>
         <Key ID="STR_Global_Yes">
-            <Original>Yes</Original>
+            <Original>Ja</Original>
             <Czech>Ano</Czech>
             <Spanish>Si</Spanish>
             <Russian></Russian>
@@ -468,7 +468,7 @@
             <Polish>Tak</Polish>
         </Key>
         <Key ID="STR_Global_No">
-            <Original>No</Original>
+            <Original>Nein</Original>
             <Czech>Ne</Czech>
             <Spanish>No</Spanish>
             <Russian></Russian>
@@ -479,7 +479,7 @@
             <Polish>Nie</Polish>
         </Key>
         <Key ID="STR_Global_Cancel">
-            <Original>Cancel</Original>
+            <Original>Abbrechen</Original>
             <Czech>Zrušit</Czech>
             <Spanish>Cancelar</Spanish>
             <Russian></Russian>
@@ -492,7 +492,7 @@
     </Package>
     <Package name="Admin_Menu">
         <Key ID="STR_Admin_Title">
-            <Original>Admin Menu</Original>
+            <Original>Admin Menü</Original>
             <Czech>Nabídka admin</Czech>
             <Spanish>Menu de Admin</Spanish>
             <Russian></Russian>
@@ -626,7 +626,7 @@
     </Package>
     <Package name="Admin_Notifications">
         <Key ID="STR_ANOTF_Query">
-            <Original>Querying...</Original>
+            <Original>Abfrage läuft...</Original>
             <Czech>Dotazování ...</Czech>
             <Spanish>Buscando...</Spanish>
             <Russian></Russian>
@@ -802,7 +802,7 @@
             <German>Gott-Modus deaktiviert</German>
         </Key>
         <Key ID="STR_NOTF_ActionCancel">
-            <Original>Action Cancelled</Original>
+            <Original>Aktion abgebrochen</Original>
             <Czech>akce byla zrušena</Czech>
             <Spanish>Acción Cancelada</Spanish>
             <Russian></Russian>
@@ -813,7 +813,7 @@
             <Polish>Anulowano akcję</Polish>
         </Key>
         <Key ID="STR_NOTF_CommanderView">
-            <Original>Commander/Tactical View Disabled</Original>
+            <Original>Befehlshaber-Übersicht deaktiviert</Original>
             <Czech>Commander/Tactical View Disabled</Czech>
             <Spanish>Commander/Tactical View Disabled</Spanish>
             <Russian>Commander/Tactical View Disabled</Russian>
@@ -824,7 +824,7 @@
             <Polish>Commander/Tactical View Disabled</Polish>
         </Key>
         <Key ID="STR_NOTF_PlaceContainer">
-            <Original>Hit spacebar to place the container.</Original>
+            <Original>Leertaste drücken, um den Container zu platzieren</Original>
             <Czech>Hit mezerníku na místo Kontejner.</Czech>
             <French>Appuyez sur espace pour placer le conteneur.</French>
             <Spanish>Aprieta la barra de espacio para colocar el Contenedor.</Spanish>
@@ -835,7 +835,7 @@
             <German>Leertaste drücken, um den Container zu platzieren.</German>
         </Key>
         <Key ID="STR_NOTF_notAllowed">
-            <Original>Your faction is not allowed to chop vehicles!</Original>
+            <Original>Deiner Fraktion ist es nicht erlaubt, Fahrzeuge auf dem Schrottplatz zu verkaufen!</Original>
             <Czech>Váš frakce není povoleno sekat vozidla!</Czech>
             <French>Votre faction ne peut pas vendre les véhicules!</French>
             <Spanish>Tu facción no tiene permitido usar esta tienda! </Spanish>
@@ -846,7 +846,7 @@
             <German>Deiner Fraktion ist es nicht erlaubt, Fahrzeuge auf dem Schrottplatz zu verkaufen!</German>
         </Key>
         <Key ID="STR_NOTF_Pickaxe">
-            <Original>A pickaxe is required</Original>
+            <Original>Eine Spitzhacke wird benötigt.</Original>
             <Czech>Je vyžadován krumpáč</Czech>
             <Spanish>Requieres un pico</Spanish>
             <Russian></Russian>
@@ -857,7 +857,7 @@
             <Polish>Wymagana jest kilof</Polish>
         </Key>
         <Key ID="STR_NOTF_isrestrained">
-            <Original>You are restrained</Original>
+            <Original>Wie willst du mit gefesselten Händen sammeln?</Original>
             <Czech>Ty jsou omezeny</Czech>
             <Spanish>Estas retenido</Spanish>
             <Russian></Russian>
@@ -868,7 +868,7 @@
             <Polish>Ty skrępowaniem</Polish>
         </Key>
         <Key ID="STR_NOTF_surrender">
-            <Original>You can't do this while you surrender</Original>
+            <Original>Mit gehobenen Händen kannst du nichts sammeln!</Original>
             <Czech>Můžete to udělat, když se vzdáš</Czech>
             <Spanish>No puedes hacer esto mientras te estas rindiendo</Spanish>
             <Russian></Russian>
@@ -879,7 +879,7 @@
             <Polish>Nie można tego zrobić, gdy się poddasz</Polish>
         </Key>
         <Key ID="STR_NOTF_cantgather">
-            <Original>You can't gather this resource with this vehicle!</Original>
+            <Original>Du kannst diese Ressource nicht mit diesem Fahrzeug abbauen!</Original>
             <Czech>Nemůžete shromáždit tento prostředek s tímto vozidlem!</Czech>
             <Spanish>No puedes recolectar este recurso con este vehiculo!</Spanish>
             <Russian></Russian>
@@ -1371,7 +1371,7 @@
             <Polish>Ustaw lidera</Polish>
         </Key>
         <Key ID="STR_Gang_PriceTxt">
-            <Original>To create a gang it costs $%1</Original>
+            <Original>Eine Gang zu erstellen kostet $%1</Original>
             <Czech>Chcete-li vytvořit gang stojí $%1</Czech>
             <Spanish>Cuesta $%1 para crear una pandilla</Spanish>
             <Russian></Russian>
@@ -1393,7 +1393,7 @@
             <Polish>Stwórz</Polish>
         </Key>
         <Key ID="STR_Gang_YGN">
-            <Original>Your Gang Name</Original>
+            <Original>Dein Gang Name</Original>
             <Czech>Váš Gang Jméno</Czech>
             <Spanish>Nombre de tu Pandilla</Spanish>
             <Russian></Russian>
@@ -1890,7 +1890,7 @@
             <Polish>Ulepszanie anulowane.</Polish>
         </Key>
         <Key ID="STR_GNOTF_Funds">
-            <Original>Funds:</Original>
+            <Original>Geld:</Original>
             <Czech>fondy</Czech>
             <Spanish>Fondos:</Spanish>
             <Russian></Russian>
@@ -1901,7 +1901,7 @@
             <Polish>Środki:</Polish>
         </Key>
         <Key ID="STR_GNOTF_GangLeader">
-            <Original>(Gang Leader)</Original>
+            <Original>(Anführer)</Original>
             <Czech>(Gang Leader)</Czech>
             <Spanish>(Lider de Pandilla)</Spanish>
             <Russian></Russian>
@@ -2314,7 +2314,7 @@
             <Polish>Licencje</Polish>
         </Key>
         <Key ID="STR_PM_MoneyStats">
-            <Original>Geld</Original>
+            <Original>Vermögen</Original>
             <Czech>peníze Statistiky</Czech>
             <Spanish>Dinero</Spanish>
             <Russian></Russian>
@@ -2336,7 +2336,7 @@
             <Polish>Gang</Polish>
         </Key>
         <Key ID="STR_PM_WantedList">
-            <Original>Fahndungsliste</Original>
+            <Original>Gesucht</Original>
             <Czech>seznamu hledaných</Czech>
             <Spanish>Lista de Busqueda</Spanish>
             <Russian></Russian>
@@ -2821,7 +2821,7 @@
             <German>%1 Vergehen: %2</German>
         </Key>
         <Key ID="STR_Wanted_Bounty">
-            <Original>Current Bounty Price: $%1</Original>
+            <Original>Belohnung: %1</Original>
             <Czech>Aktuální Bounty Cena: $ %1</Czech>
             <French>Prix de la prime: $%1</French>
             <Spanish>Recompensa Actual: $%1</Spanish>
@@ -4189,7 +4189,7 @@
             <German>Sie haben kein Fahrzeug auswählen.</German>
         </Key>
         <Key ID="STR_NOTF_noVehOwned">
-            <Original>You do not own any vehicles.</Original>
+            <Original>Du besitzt keine Fahrzeuge.</Original>
             <Czech>Nevlastníte žádná vozidla.</Czech>
             <French>Vous ne possédez pas de véhicules.</French>
             <Spanish>Usted no posee ningún vehículo.</Spanish>
@@ -6009,7 +6009,7 @@
     </Package>
     <Package name="Vehicle_Service">
         <Key ID="STR_Service_Chopper_NoAir">
-            <Original>There isn't a chopper on the helipad!</Original>
+            <Original>Es ist kein Helikopter auf dem Landeplatz</Original>
             <Czech>Není vrtulník na přistávací plocha pro vrtulník!</Czech>
             <Spanish>No hay un helicóptero en el Helipad.</Spanish>
             <Russian></Russian>
@@ -6020,7 +6020,7 @@
             <Polish>W pobliżu nie ma helikoptera!</Polish>
         </Key>
         <Key ID="STR_Serive_Chopper_NotEnough">
-            <Original>You need $1,000 to service your chopper</Original>
+            <Original>Du benötigst $1,000, um deinen Helikopter zu warten</Original>
             <Czech>Musíte $ 1,000 servisních kontrol vrtulník</Czech>
             <Spanish>Necesitas $1,000 para reparar el helicóptero.</Spanish>
             <Russian></Russian>
@@ -6031,7 +6031,7 @@
             <Polish>Potrzebujesz $1000 aby serwisować helikopter</Polish>
         </Key>
         <Key ID="STR_Service_Chopper_Servicing">
-            <Original>Servicing Chopper [%1]...</Original>
+            <Original>Helikopter wird gewartet [%1]...</Original>
             <Czech>Servis Chopper [%1] ...</Czech>
             <Spanish>Reparando Helicóptero [%1]...</Spanish>
             <Russian></Russian>
@@ -6042,7 +6042,7 @@
             <Polish>Serwisuję helikopter [%1]...</Polish>
         </Key>
         <Key ID="STR_Service_Chopper_Missing">
-            <Original>The vehicle is no longer alive or on the helipad!</Original>
+            <Original>TDas Fahrzeug wurde zerstört oder befindest sich nicht mehr auf dem Helikopterlandeplatz!</Original>
             <Czech>Vozidlo je již nežije nebo na přistávací plocha pro vrtulník!</Czech>
             <Spanish>El vehiculo no esta vivo o en el helipad!</Spanish>
             <Russian></Russian>
@@ -6053,7 +6053,7 @@
             <Polish>Pojazd nie jest dłużej dostępny na lądowisku</Polish>
         </Key>
         <Key ID="STR_Service_Chopper_Done">
-            <Original>Your chopper is now repaired and refuelled.</Original>
+            <Original>Der Helicopter ist nun repariert und aufgetankt.</Original>
             <Czech>Váš vrtulník není opraveno a tankovat.</Czech>
             <Spanish>Tu helicóptero esta reparado y lleno de combustible.</Spanish>
             <Russian></Russian>
@@ -6827,7 +6827,7 @@
     </Package>
     <Package name="Life_License">
         <Key ID="STR_License_Driver">
-            <Original>Driver License</Original>
+            <Original>Führerschein</Original>
             <Czech>Řidičský průkaz</Czech>
             <Spanish>Licencia de Conducir</Spanish>
             <Russian></Russian>
@@ -6838,7 +6838,7 @@
             <Polish>Prawo jazdy</Polish>
         </Key>
         <Key ID="STR_License_Pilot">
-            <Original>Pilot License</Original>
+            <Original>Pilotenschein</Original>
             <Czech>pilotní licence</Czech>
             <Spanish>Licencia de Piloto</Spanish>
             <Russian></Russian>
@@ -6849,7 +6849,7 @@
             <Polish>Licencja Pilota</Polish>
         </Key>
         <Key ID="STR_License_Heroin">
-            <Original>Heroin Training</Original>
+            <Original>Heroinausbildung</Original>
             <Czech>heroin Training</Czech>
             <Spanish>Entrenamiento de Heroina</Spanish>
             <Russian></Russian>
@@ -6860,7 +6860,7 @@
             <Polish>Wytwarzanie Heroiny</Polish>
         </Key>
         <Key ID="STR_License_Oil">
-            <Original>Oil Processing</Original>
+            <Original>Ölverarbeitung</Original>
             <Czech>Zpracování olej</Czech>
             <Spanish>Procesamiento de Petroleo</Spanish>
             <Russian></Russian>
@@ -6871,7 +6871,7 @@
             <Polish>Rafinacja ropy naftowej</Polish>
         </Key>
         <Key ID="STR_License_Diving">
-            <Original>Diving License</Original>
+            <Original>Taucherschein</Original>
             <Czech>potápěčské licence</Czech>
             <Spanish>Licencia de Buceo</Spanish>
             <Russian></Russian>
@@ -6882,7 +6882,7 @@
             <Polish>Licencja Nurka</Polish>
         </Key>
         <Key ID="STR_License_Boat">
-            <Original>Boating License</Original>
+            <Original>Bootsschein</Original>
             <Czech>Vodácký licence</Czech>
             <Spanish>Licencia de Botes</Spanish>
             <Russian></Russian>
@@ -6893,7 +6893,7 @@
             <Polish>Patent Motorowodny</Polish>
         </Key>
         <Key ID="STR_License_Firearm">
-            <Original>Firearm License</Original>
+            <Original>Waffenschein</Original>
             <Czech>zbrojní průkaz</Czech>
             <Spanish>Licencia de Armas</Spanish>
             <Russian></Russian>
@@ -6904,7 +6904,7 @@
             <Polish>Pozwolenie na broń</Polish>
         </Key>
         <Key ID="STR_License_Swat">
-            <Original>SWAT License</Original>
+            <Original>SWAT-Lizenz</Original>
             <Czech>SWAT licence</Czech>
             <Spanish>Licencia SWAT</Spanish>
             <Russian></Russian>
@@ -6915,7 +6915,7 @@
             <Polish>Trening SWAT</Polish>
         </Key>
         <Key ID="STR_License_CG">
-            <Original>Coast Guard License</Original>
+            <Original>Küstenwache</Original>
             <Czech>Pobřežní stráž licence</Czech>
             <Spanish>Licencia de Guardia Costera</Spanish>
             <Russian></Russian>
@@ -6926,7 +6926,7 @@
             <Polish>Trening straż przybrzeżna</Polish>
         </Key>
         <Key ID="STR_License_Rebel">
-            <Original>Rebel Training</Original>
+            <Original>Rebellenausbildung</Original>
             <Czech>Rebel Training</Czech>
             <Spanish>Entrenamiento Rebelde</Spanish>
             <Russian></Russian>
@@ -6937,7 +6937,7 @@
             <Polish>Trening rebelianta</Polish>
         </Key>
         <Key ID="STR_License_Truck">
-            <Original>Truck License</Original>
+            <Original>LKW-Führerschein</Original>
             <Czech>Truck licence</Czech>
             <Spanish>Licencia de Camiones</Spanish>
             <Russian></Russian>
@@ -6948,7 +6948,7 @@
             <Polish>Prawo jazdy - ciężarówki</Polish>
         </Key>
         <Key ID="STR_License_Diamond">
-            <Original>Diamond Processing</Original>
+            <Original>Diamantenverarbeitung</Original>
             <Czech>Diamond Processing</Czech>
             <Spanish>Procesamiento de Diamantes</Spanish>
             <Russian></Russian>
@@ -6959,7 +6959,7 @@
             <Polish>Szlifierz diamentów</Polish>
         </Key>
         <Key ID="STR_License_Copper">
-            <Original>Copper Processing</Original>
+            <Original>Kupferverarbeitung</Original>
             <Czech>Zpracování měď</Czech>
             <Spanish>Procesamiento de Cobre</Spanish>
             <Russian></Russian>
@@ -6970,7 +6970,7 @@
             <Polish>Wytapianie miedzi</Polish>
         </Key>
         <Key ID="STR_License_Iron">
-            <Original>Iron Processing</Original>
+            <Original>Eisenverarbeitung</Original>
             <Czech>Zpracování Iron</Czech>
             <Spanish>Procesamiento de Hierro</Spanish>
             <Russian></Russian>
@@ -6981,7 +6981,7 @@
             <Polish>Wytapianie żelaza</Polish>
         </Key>
         <Key ID="STR_License_Sand">
-            <Original>Sand Processing</Original>
+            <Original>Sandverarbeitung</Original>
             <Czech>Zpracování písek</Czech>
             <Spanish>Procesamiento de Arena</Spanish>
             <Russian></Russian>
@@ -6992,7 +6992,7 @@
             <Polish>Hutnik szkła z piasku</Polish>
         </Key>
         <Key ID="STR_License_Salt">
-            <Original>Salt Processing</Original>
+            <Original>Salzverarbeitung</Original>
             <Czech>sůl Processing</Czech>
             <Spanish>Procesamiento de Sal</Spanish>
             <Russian></Russian>
@@ -7003,7 +7003,7 @@
             <Polish>Warzenie soli</Polish>
         </Key>
         <Key ID="STR_License_Cocaine">
-            <Original>Cocaine Training</Original>
+            <Original>Kokainausbildung</Original>
             <Czech>kokain Training</Czech>
             <Spanish>Entrenamiento de Cocaína</Spanish>
             <Russian></Russian>
@@ -7014,7 +7014,7 @@
             <Polish>Oczyszczanie kokainy</Polish>
         </Key>
         <Key ID="STR_License_Marijuana">
-            <Original>Marijuana Training</Original>
+            <Original>Marihuanaausbildung</Original>
             <Czech>Marihuana Training</Czech>
             <Spanish>Entrenamiento de Marihuana</Spanish>
             <Russian></Russian>
@@ -7025,7 +7025,7 @@
             <Polish>Suszenie konopi</Polish>
         </Key>
         <Key ID="STR_License_Cement">
-            <Original>Cement Mixing License</Original>
+            <Original>Zementmisch-Lizenz</Original>
             <Czech>Cement Mixing licence</Czech>
             <Spanish>Licencia para Mezclar Cemento</Spanish>
             <Russian></Russian>
@@ -7036,7 +7036,7 @@
             <Polish>Wytwórca cementu</Polish>
         </Key>
         <Key ID="STR_License_Medmarijuana">
-            <Original>Medical Marijuana License</Original>
+            <Original>Medizinisches Marijuana-Lizenz</Original>
             <Czech>Medical Marihuana Licence</Czech>
             <Spanish>Licencia de Marihuana Medicinal</Spanish>
             <Russian></Russian>
@@ -7047,7 +7047,7 @@
             <Polish>Medical Marijuana Licencji</Polish>
         </Key>
         <Key ID="STR_License_Home">
-            <Original>Home Owners License</Original>
+            <Original>Eigentumsurkunde</Original>
             <Czech>Home Majitelé licence</Czech>
             <Spanish>Licencia Mobiliaria</Spanish>
             <Russian></Russian>

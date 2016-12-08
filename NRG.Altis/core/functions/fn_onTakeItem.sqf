@@ -43,3 +43,4 @@ switch (playerSide) do
         };
     };
 };
+[] call life_fnc_playerSkins;

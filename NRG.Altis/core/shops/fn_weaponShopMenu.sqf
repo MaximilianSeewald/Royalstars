@@ -33,7 +33,7 @@ if (!isClass(missionConfigFile >> "WeaponShops" >> (_this select 3))) exitWith {
 
 disableSerialization;
 
-ctrlSetText[38401,_shopTitle];
+//ctrlSetText[38401,_shopTitle];
 
 private _filters = ((findDisplay 38400) displayCtrl 38402);
 lbClear _filters;

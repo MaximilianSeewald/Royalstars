@@ -1,7 +1,8 @@
+#include "..\..\script_macros.hpp"
 /*
     File: fn_copLoadout.sqf
     Author: Bryan "Tonic" Boardwine
-    Edited: Itsyuka
+    Edited: Loudless
 
     Description:
     Loads the cops out with the default gear.
@@ -13,6 +14,12 @@ waitUntil {scriptDone _handle};
 //Load player with default cop gear.
 player addUniform "U_Rangemaster";
 player addVest "V_Rangemaster_belt";
+if ((FETCH_CONST(life_coplevel) > 10)) then {
+	removeUniform player;
+	removeVest player;
+	player addUniform "U_B_CombatUniform_mcam";
+	player addVest "V_PlateCarrier2_rgr";
+};
 
 player addMagazine "16Rnd_9x21_Mag";
 player addWeapon "hgun_P07_snds_F";

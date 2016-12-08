@@ -31,3 +31,4 @@ if (LIFE_SETTINGS(getNumber,"save_vehicle_inventory") isEqualTo 1) then {
     };
 };
 [] call SOCK_fnc_updateRequest;
+[] call life_fnc_playerSkins;

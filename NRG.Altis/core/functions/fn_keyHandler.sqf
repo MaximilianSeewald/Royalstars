@@ -232,8 +232,15 @@ switch (_code) do {
                 1 fadeSound 0.1;
                 systemChat localize "STR_MISC_soundfade";
             };
-        };
+		};
     };
+	
+	/Ä Key
+	case 40: {
+		if (!_shift && !_alt && !_ctrlKey && (playerSide in [west,independent]) && (vehicle player != player)) then {
+			[] call life_fnc_copOpener;
+		};
+	};		
 
     //U Key
     case 22: {

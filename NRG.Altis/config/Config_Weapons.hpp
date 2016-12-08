@@ -110,7 +110,7 @@ class WeaponShops {
     };
 
     class f_station_store {
-        name = "Altis Fuel Station Store";
+        name = "Tankstelle";
         side = "";
         conditions = "";
         items[] = {
@@ -132,9 +132,77 @@ class WeaponShops {
 
     //Cop Shops
     class cop_basic {
-        name = "Altis Cop Shop";
+        name = "Polizei Shop";
         side = "cop";
-        conditions = "";
+        conditions = "call life_coplevel < 11";
+        items[] = {
+            { "Binocular", "", 150, -1, "" },
+            { "ItemGPS", "", 100, 45, "" },
+            { "FirstAidKit", "", 150, 65, "" },
+            { "NVGoggles", "", 2000, 980, "" },
+            { "HandGrenade_Stone", "Blendgranate", 1700, -1, "" },
+            { "hgun_P07_snds_F", "Taser", 2000, 650, "" },
+            { "arifle_sdar_F", "Tasergewehr", 20000, 7500, "" },
+            { "hgun_P07_F", "", 7500, 1500, "" },
+            { "SMG_02_ACO_F", "", 30000, -1, "call life_coplevel >= 2" },
+            { "arifle_MX_F", "", 35000, 7500, "call life_coplevel >= 2" },
+            { "hgun_ACPC2_F", "", 17500, -1, "call life_coplevel >= 3" },
+            { "arifle_MXC_F", "", 30000, 5000, "call life_coplevel >= 3" }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 25, 100, "" },
+            { "20Rnd_556x45_UW_mag", "Tasermunition", 45, 100, "" },
+            { "30Rnd_65x39_caseless_mag", "", 130, 100, "" },
+            { "30Rnd_9x21_Mag", "", 250, 100, "call life_coplevel >= 2" },
+            { "9Rnd_45ACP_Mag", "", 200, 100, "call life_coplevel >= 3" }
+        };
+        accs[] = {
+            { "muzzle_snds_L", "", 650, 100, "" },
+            { "acc_flashlight", "", 750, 100, "call life_coplevel >= 2" },
+            { "optic_Holosight", "", 1200, 100, "call life_coplevel >= 2" },
+            { "optic_Arco", "", 2500, 100, "call life_coplevel >= 2" },
+            { "muzzle_snds_H", "", 2750, 100, "call life_coplevel >= 2" },
+            { "optic_MRD", "", 2750, 100, "call life_coplevel >= 2" }
+        };
+    };
+	class cop_basic_fbi {
+        name = "FBI Shop";
+        side = "cop";
+        conditions = "(call life_coplevel >= 11) && (call life_coplevel < 14)";
+        items[] = {
+            { "Binocular", "", 150, -1, "" },
+            { "ItemGPS", "", 100, 45, "" },
+            { "FirstAidKit", "", 150, 65, "" },
+            { "NVGoggles", "", 2000, 980, "" },
+            { "HandGrenade_Stone", "Blendgranate", 1700, -1, "" },
+            { "hgun_P07_snds_F", "Taser", 2000, 650, "" },
+            { "arifle_sdar_F", "Tasergewehr", 20000, 7500, "" },
+            { "hgun_P07_F", "", 7500, 1500, "" },
+            { "SMG_02_ACO_F", "", 30000, -1, "call life_coplevel >= 2" },
+            { "arifle_MX_F", "", 35000, 7500, "call life_coplevel >= 2" },
+            { "hgun_ACPC2_F", "", 17500, -1, "call life_coplevel >= 3" },
+            { "arifle_MXC_F", "", 30000, 5000, "call life_coplevel >= 3" }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 25, 100, "" },
+            { "20Rnd_556x45_UW_mag", "Tasermunition", 45, 100, "" },
+            { "30Rnd_65x39_caseless_mag", "", 130, 100, "" },
+            { "30Rnd_9x21_Mag", "", 250, 100, "call life_coplevel >= 2" },
+            { "9Rnd_45ACP_Mag", "", 200, 100, "call life_coplevel >= 3" }
+        };
+        accs[] = {
+            { "muzzle_snds_L", "", 650, 100, "" },
+            { "acc_flashlight", "", 750, 100, "call life_coplevel >= 2" },
+            { "optic_Holosight", "", 1200, 100, "call life_coplevel >= 2" },
+            { "optic_Arco", "", 2500, 100, "call life_coplevel >= 2" },
+            { "muzzle_snds_H", "", 2750, 100, "call life_coplevel >= 2" },
+            { "optic_MRD", "", 2750, 100, "call life_coplevel >= 2" }
+        };
+    };
+	class cop_basic_army {
+        name = "US Army Shop";
+        side = "cop";
+        conditions = "call life_coplevel >= 14";
         items[] = {
             { "Binocular", "", 150, -1, "" },
             { "ItemGPS", "", 100, 45, "" },
@@ -168,7 +236,7 @@ class WeaponShops {
 
     //Medic Shops
     class med_basic {
-        name = "store";
+        name = "THW Shop";
         side = "med";
         conditions = "";
         items[] = {

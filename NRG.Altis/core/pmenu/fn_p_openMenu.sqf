@@ -12,21 +12,22 @@ disableSerialization;
 
 switch (playerSide) do {
     case west: {
-        ctrlShow[2011,false];
+	    ctrlShow[1207,false];
+		ctrlShow[1209,false];
     };
 
     case civilian: {
-        ctrlShow[2012,false];
+        ctrlShow[1210,false];
+		ctrlShow[2008,false];
     };
 
     case independent: {
-        ctrlShow[2012,false];
-        ctrlShow[2011,false];
+	    ctrlShow[1210,false];
+		ctrlShow[2008,false];
+		
+		ctrlShow[1207,false];
+		ctrlShow[1209,false];
     };
-};
-
-if (FETCH_CONST(life_adminlevel) < 1) then {
-    ctrlShow[2021,false];
 };
 
 [] call life_fnc_p_updateMenu;

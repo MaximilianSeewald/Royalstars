@@ -3,25 +3,15 @@ class life_wanted_menu {
     name= "life_wanted_menu";
     movingEnable = false;
     enableSimulation = true;
-    //onLoad = "[] spawn life_fnc_wantedadd2;";
 
     class controlsBackground {
-        class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+        class MainBackground: Life_RscPicture {
             idc = -1;
-            x = 0.1;
-            y = 0.2;
-            w = 0.6;
-            h = (1 / 25);
-        };
-
-        class MainBackground: Life_RscText {
-            colorBackground[] = {0, 0, 0, 0.7};
-            idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.6;
-            h = 0.6 - (22 / 250);
+			text = "textures\tablet\tablet.paa";
+			x = 0.258501 * safezoneW + safezoneX;
+			y = 0.0716 * safezoneH + safezoneY;
+			w = 0.485625 * safezoneW;
+			h = 0.854 * safezoneH;
         };
     };
 
@@ -29,17 +19,11 @@ class life_wanted_menu {
         class Title: Life_RscTitle {
             colorBackground[] = {0, 0, 0, 0};
             idc = -1;
-            text = "$STR_Wanted_Title";
-            x = 0.1;
-            y = 0.2;
+            text = "Fahndungsliste";
+            x = 0.412;
+            y = 0.18;
             w = 0.6;
             h = (1 / 25);
-        };
-
-        class WantedConnection: Title {
-            idc = 2404;
-            style = 1;
-            text = "";
         };
 
         class WantedList: Life_RscListBox {
@@ -47,9 +31,9 @@ class life_wanted_menu {
             text = "";
             sizeEx = 0.035;
             onLBSelChanged = "[] spawn life_fnc_wantedGrab";
-            x = 0.12;
+            x = 0.04;
             y = 0.28;
-            w = 0.2;
+            w = 0.3;
             h = 0.3;
         };
 
@@ -57,11 +41,10 @@ class life_wanted_menu {
             idc = 2406;
             text = "";
             sizeEx = 0.035;
-            //colorBackground[] = {0,0,0,0};
             onLBSelChanged = "";
-            x = 0.34;
+            x = 0.36;
             y = 0.28;
-            w = 0.2;
+            w = 0.3;
             h = 0.3;
         };
 
@@ -72,62 +55,79 @@ class life_wanted_menu {
             colorBackground[] = {0, 0, 0, 0};
             x = 0.12;
             y = 0.62;
-            w = 0.48;
+            w = 0.3;
             h = 0.12;
         };
 
         class BountyPrice: Life_RscText    {
             idc = 2403;
             text = "";
-            x = 0.12;
-            y = 0.30;
+            x = 0.675;
+            y = 0.317;
             w = 0.6;
             h = 0.6;
         };
 
         class WantedAddL: Life_RscCombo    {
             idc = 2407;
-            x = 0.542;
+            x = 0.67;
             y = 0.28;
-            w = (8 / 52);
+            w = 0.3;
             h = 0.03;
         };
 
+        class CloseButtonPictureKey: life_RscPicture
+		{
+			idc = -1;
+			text = "textures\tablet\close.paa";
+			x = 0.485 * safezoneW + safezoneX;
+			y = 0.6988 * safezoneH + safezoneY;
+			w = 0.0315 * safezoneW;
+			h = 0.056 * safezoneH;
+		};
+		
         class CloseButtonKey: Life_RscButtonMenu {
             idc = -1;
-            text = "$STR_Global_Close";
             onButtonClick = "closeDialog 0;";
-            x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
+			x = 0.485 * safezoneW + safezoneX;
+			y = 0.6988 * safezoneH + safezoneY;
+			w = 0.0315 * safezoneW;
+			h = 0.056 * safezoneH;
+			tooltip = "Schließen";
+			colorBackground[] = {-1,-1,-1,-1};
+			colorBackgroundFocused[] = {1,1,1,0.12};
+			colorBackground2[] = {0.75,0.75,0.75,0.2};
+			color[] = {1,1,1,1};
+			colorFocused[] = {0,0,0,0};
+			color2[] = {0,0,0,0};
+			colorText[] = {1,1,1,1};
+			colorDisabled[] = {1,0,0,0.1};
         };
 
         class PardonButtonKey: Life_RscButtonMenu {
             idc = 2405;
-            text = "$STR_Wanted_Pardon";
-            onButtonClick = "[] call life_fnc_pardon; closeDialog 0;";
-            x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
+            text = "Vergeben";
+            onButtonClick = "[] call life_fnc_pardon;";
+            x = 0.11;
+            y = 0.6;
             w = (6.25 / 40);
             h = (1 / 25);
         };
 
         class ButtonWantedAdd: Life_RscButtonMenu {
             idc = 9800;
-            //shortcuts[] = {0x00050000 + 2};
-            text = "$STR_Wanted_Add";
+            text = "Bestrafen";
             onButtonClick = "[] call life_fnc_wantedAddP;";
-            x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
+			x = 0.43;
+            y = 0.6;
             w = (6.25 / 40);
             h = (1 / 25);
         };
 
         class wantedText: Life_RscText {
             idc = 1000;
-            text = "$STR_Wanted_People";
-            x = 0.12;
+            text = "Verbrecher";
+            x = 0.04;
             y = 0.11;
             w = 0.2;
             h = 0.3;
@@ -135,8 +135,8 @@ class life_wanted_menu {
 
         class citizensText: Life_RscText {
             idc = 1001;
-            text = "$STR_Wanted_Citizens";
-            x = 0.34;
+            text = "Bürger";
+            x = 0.36;
             y = 0.11;
             w = 0.2;
             h = 0.3;
@@ -144,8 +144,8 @@ class life_wanted_menu {
 
         class crimesText: Life_RscText {
             idc = 1002;
-            text = "$STR_Wanted_Crimes";
-            x = 0.542;
+            text = "Verbrechen";
+            x = 0.67;
             y = 0.245;
             w = (8 / 52);
             h = 0.03;

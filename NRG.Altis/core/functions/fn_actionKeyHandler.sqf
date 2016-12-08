@@ -14,7 +14,7 @@ if (life_interrupted) exitWith {life_interrupted = false;};
 _isWater = surfaceIsWater (visiblePositionASL player);
 
 if (playerSide isEqualTo west && {player getVariable ["isEscorting",false]}) exitWith {
-    [] call life_fnc_copInteractionMenu;
+   [] call life_fnc_copInteractionMenu;
 };
 
 if (LIFE_SETTINGS(getNumber,"global_ATM") isEqualTo 1) then{

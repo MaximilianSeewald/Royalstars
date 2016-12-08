@@ -1,16 +1,16 @@
 waitUntil {!isServer && !isNull player && player isEqualTo player};
 if (player diarySubjectExists "controls") exitWith {};
 
-player createDiarySubject ["credits","Credits"];
-player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
-player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
-player createDiarySubject ["gangrules","Gang Rules"];
-player createDiarySubject ["terrorrules","Terrorism Rules"];
-player createDiarySubject ["controls","Steuerung"];
+//player createDiarySubject ["credits","Credits"];
+//player createDiarySubject ["changelog","Change Log"];
+//player createDiarySubject ["serverrules","General Rules"];
+//player createDiarySubject ["policerules","Police Procedures/Rules"];
+//player createDiarySubject ["safezones","Safe Zones (No Killing)"];
+//player createDiarySubject ["civrules","Civilian Rules"];
+//player createDiarySubject ["illegalitems","Illegal Activity"];
+//player createDiarySubject ["gangrules","Gang Rules"];
+//player createDiarySubject ["terrorrules","Terrorism Rules"];
+player createDiarySubject ["controlsv1","Steuerung"];
 
 /*  Example
     player createDiaryRecord ["", //Container
@@ -543,18 +543,18 @@ The following items are illegal to posses:<br/><br/>
 
 // Steuerung
 
-    player createDiaryRecord ["controls",
+    player createDiaryRecord ["controlsv1",
         [
             "Polizei und Rettungsdienst",
                 "
 F: Fahrzeug Sirene<br/>
-L: Radarmessung(Waffe "P07 Schallgedaämpft" muss ausgerüstet sein)<br/>
+L: Radarmessung(Waffe P07 Schallgedämpft muss ausgerüstet sein)<br/>
 Left Shift + L: Blaulicht<br/>
 Left Shift + R: Festnehmen<br/><br/>
                 "
         ]
     ];
-    player createDiaryRecord ["controls",
+    player createDiaryRecord ["controlsv1",
         [
             "Zivilisten",
                 "
@@ -563,7 +563,7 @@ Spacebar: Kiste platzieren<br/><br/>
                 "
         ]
     ];
-    player createDiaryRecord ["controls",
+    player createDiaryRecord ["controlsv1",
         [
             "Generell",
                 "

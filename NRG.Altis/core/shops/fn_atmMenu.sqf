@@ -6,6 +6,7 @@
     Description:
     Opens and manages the bank menu.
 */
+
 private ["_units","_type"];
 
 if (!life_use_atm) exitWith {
@@ -13,7 +14,7 @@ if (!life_use_atm) exitWith {
 };
 
 if (!dialog) then {
-    if (!(createDialog "Life_atm_management")) exitWith {};
+	if (!(createDialog "Life_atm_management")) exitWith {};
 };
 
 disableSerialization;
@@ -41,3 +42,4 @@ if (isNil {(group player getVariable "gang_bank")}) then {
     (CONTROL(2700,2705)) ctrlEnable false;
     (CONTROL(2700,2706)) ctrlEnable false;
 };
+waitUntil{!dialog};
