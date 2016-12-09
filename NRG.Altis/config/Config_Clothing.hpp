@@ -114,27 +114,111 @@ class Clothing {
 
     class cop {
         title = "STR_Shops_C_Police";
-        conditions = "";
+        conditions = "call life_coplevel < 11";
         side = "cop";
         uniforms[] = {
             { "NONE", "Ausziehen", 0, "" },
             { "U_Rangemaster", "Rekrut", 25, "call life_coplevel < 11" },
-			{ "U_B_CombatUniform_mcam", "Hauptmeister", 350, "call life_coplevel > 2 && call life_coplevel < 11" },
-			{ "U_B_SpecopsUniform_sgg", "Oberkommissar", 350, "call life_coplevel > 4 && call life_coplevel < 11" },
-            { "U_B_CombatUniform_mcam_vest", "Agent", 350, "call life_coplevel > 10 && call life_coplevel < 14" },
-			{ "U_B_CombatUniform_mcam", "Special Agent", 350, "call life_coplevel > 11 && call life_coplevel < 14" },
-			{ "U_B_CombatUniform_mcam", "Soldat", 350, "call life_coplevel > 13 && call life_coplevel < 15" },
-			{ "U_B_CombatUniform_mcam_worn", "Sergeant(Camo)", 350, "call life_coplevel > 14" },
-			{ "U_B_CombatUniform_mcam", "Sergeant", 350, "call life_coplevel > 14" },
-			{ "U_I_OfficerUniform", "Major", 350, "call life_coplevel > 17" },
-			{ "U_O_OfficerUniform_ocamo", "Major(Camo)", 350, "call life_coplevel > 17" }
+			{ "U_B_CombatUniform_mcam", "Wachtmeister", 350, "call life_coplevel > 2 && call life_coplevel < 11" },
+			{ "U_B_CombatUniform_mcam_worn", "Kommissar", 350, "call life_coplevel > 4 && call life_coplevel < 11" },
+			{ "U_B_SpecopsUniform_sgg", "Hauptkommissar", 350, "call life_coplevel > 6 && call life_coplevel < 11" }
         };
         headgear[] = {
             { "NONE", "Ausziehen", 0, "" },
-            { "H_Cap_police", "", 25, "call life_coplevel < 11" },
-            { "H_Beret_blk_POLICE", "", 50, "call life_coplevel < 11" },
+            { "H_Beret_blk_POLICE", "", 50, "call life_coplevel > 1" },
+			{ "H_Beret_02", "", 50, "call life_coplevel > 3" },
+			{ "H_Beret_Colonel", "", 50, "call life_coplevel > 7" }
+        };
+        goggles[] = {
+            { "NONE", "Ausziehen", 0, "" },
+            { "G_Squares", "", 10, "" },
+            { "G_Shades_Blue", "", 20, "" },
+            { "G_Sport_Blackred", "", 20, "" },
+            { "G_Sport_Checkered", "", 20, "" },
+            { "G_Sport_Blackyellow", "", 20, "" },
+            { "G_Sport_BlackWhite", "", 20, "" },
+            { "G_Shades_Black", "", 25, "" },
+            { "G_Lowprofile", "", 30, "" },
+            { "G_Combat", "", 55, "" },
+            { "G_Aviator", "", 100, "" },
+            { "G_Lady_Mirror", "", 150, "" },
+            { "G_Lady_Dark", "", 150, "" },
+            { "G_Lady_Blue", "", 150, "" }
+        };
+        vests[] = {
+            { "NONE", "Ausziehen", 0, "" },
+            { "V_Rangemaster_belt", "Streifengürtel", 800, "call life_coplevel > 1" },
+            { "V_TacVest_blk_POLICE", "Streifenweste", 1000, "call life_coplevel > 3" },
+			{ "V_PlateCarrier1_blk", "Einsatzweste", 1000, "call life_coplevel > 5" }
+        };
+        backpacks[] = {
+            { "NONE", "Ausziehen", 0, "" },
+            { "B_FieldPack_cbr", "", 500, "" },
+            { "B_AssaultPack_cbr", "", 700, "" },
+            { "B_Kitbag_cbr", "", 800, "" },
+            { "B_Bergen_sgg", "", 2500, "" },
+            { "B_Carryall_cbr", "", 3500, "" }
+        };
+    };
+	class cop_fbi {
+        title = "STR_Shops_C_Police";
+        conditions = "call life_coplevel > 10 && call life_coplevel < 14";
+        side = "cop";
+        uniforms[] = {
+            { "NONE", "Ausziehen", 0, "" },
+            { "U_B_CombatUniform_mcam_vest", "Agent", 350, "call life_coplevel > 10 && call life_coplevel < 14" },
+			{ "U_B_CombatUniform_mcam", "Special Agent", 350, "call life_coplevel > 11 && call life_coplevel < 14" }
+        };
+        headgear[] = {
+            { "NONE", "Ausziehen", 0, "" },
+			{ "H_Beret_02", "", 50, "" },
+			{ "H_Beret_Colonel", "", 50, "call life_coplevel > 12" }
+        };
+        goggles[] = {
+            { "NONE", "Ausziehen", 0, "" },
+            { "G_Squares", "", 10, "" },
+            { "G_Shades_Blue", "", 20, "" },
+            { "G_Sport_Blackred", "", 20, "" },
+            { "G_Sport_Checkered", "", 20, "" },
+            { "G_Sport_Blackyellow", "", 20, "" },
+            { "G_Sport_BlackWhite", "", 20, "" },
+            { "G_Shades_Black", "", 25, "" },
+            { "G_Lowprofile", "", 30, "" },
+            { "G_Combat", "", 55, "" },
+            { "G_Aviator", "", 100, "" },
+            { "G_Lady_Mirror", "", 150, "" },
+            { "G_Lady_Dark", "", 150, "" },
+            { "G_Lady_Blue", "", 150, "" }
+        };
+        vests[] = {
+            { "NONE", "Ausziehen", 0, "" }
+        };
+        backpacks[] = {
+            { "NONE", "Ausziehen", 0, "" },
+            { "B_FieldPack_cbr", "", 500, "" },
+            { "B_AssaultPack_cbr", "", 700, "" },
+            { "B_Kitbag_cbr", "", 800, "" },
+            { "B_Bergen_sgg", "", 2500, "" },
+            { "B_Carryall_cbr", "", 3500, "" }
+        };
+    };
+	
+	class cop_sol {
+        title = "STR_Shops_C_Police";
+        conditions = "call life_coplevel > 13";
+        side = "cop";
+        uniforms[] = {
+            { "NONE", "Ausziehen", 0, "" },
+			{ "U_B_CombatUniform_mcam", "Soldat", 350, "call life_coplevel < 15" },
+			{ "U_B_CombatUniform_mcam_worn", "Sergeant(Camo)", 350, "call life_coplevel > 14" },
+			{ "U_B_CombatUniform_mcam", "Sergeant", 350, "call life_coplevel > 14" },
+			{ "U_I_OfficerUniform", "Major", 350, "call life_coplevel > 17" }
+        };
+        headgear[] = {
+            { "NONE", "Ausziehen", 0, "" },
             { "H_HelmetB_plain_mcamo", "", 75, "call life_coplevel > 13" },
-            { "H_MilCap_mcamo", "", 100, "call life_coplevel > 13" },
+            { "H_HelmetIA", "", 100, "call life_coplevel > 13" },
+			{ "H_MilCap_mcamo", "", 100, "call life_coplevel > 13" },
             { "H_Booniehat_mcamo", "", 120, "call life_coplevel > 13" }
         };
         goggles[] = {
@@ -155,9 +239,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Ausziehen", 0, "" },
-            { "V_Rangemaster_belt", "", 800, "" },
-            { "V_TacVest_blk_POLICE", "", 1000, "call life_coplevel < 11" },
-            { "V_PlateCarrier2_rgr", "", 1500, "call life_coplevel > 13" }
+            { "V_PlateCarrier2_rgr", "Einsatzweste", 1500, "call life_coplevel > 13" }
         };
         backpacks[] = {
             { "NONE", "Ausziehen", 0, "" },

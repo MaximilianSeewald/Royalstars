@@ -235,7 +235,7 @@ switch (_code) do {
 		};
     };
 	
-	/Ä Key
+	//Ä Key
 	case 40: {
 		if (!_shift && !_alt && !_ctrlKey && (playerSide in [west,independent]) && (vehicle player != player)) then {
 			[] call life_fnc_copOpener;

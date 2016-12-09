@@ -199,7 +199,7 @@ class WeaponShops {
             { "optic_MRD", "", 2750, 100, "call life_coplevel >= 2" }
         };
     };
-	class cop_basic_army {
+	class cop_basic_sol {
         name = "US Army Shop";
         side = "cop";
         conditions = "call life_coplevel >= 14";

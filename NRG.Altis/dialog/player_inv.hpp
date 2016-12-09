@@ -306,6 +306,33 @@ class playerSettings {
 			colorText[] = {1,1,1,1};
 			colorDisabled[] = {1,0,0,0.1};
 		};
+		class ButtonMarkt_ICON: life_RscPicture
+		{
+			idc = 3025;
+			text = "textures\tablet\markt.paa";
+			x = 0.6233759 * safezoneW + safezoneX;
+			y = 0.7016 * safezoneH + safezoneY;
+			w = 0.028875 * safezoneW;
+			h = 0.0504 * safezoneH;
+		};
+		class ButtonMarkt: life_RscButtonMenu
+		{
+			idc = 3026;
+			x = 0.6244759 * safezoneW + safezoneX;
+			y = 0.7016 * safezoneH + safezoneY;
+			w = 0.028875 * safezoneW;
+			h = 0.0504 * safezoneH;
+			onButtonClick = "closeDialog 0;createDialog ""life_dynmarket_prices"";";
+			tooltip = "Börse";
+			colorBackground[] = {-1,-1,-1,-1};
+			colorBackgroundFocused[] = {1,1,1,0.12};
+			colorBackground2[] = {0.75,0.75,0.75,0.2};
+			color[] = {1,1,1,1};
+			colorFocused[] = {0,0,0,0};
+			color2[] = {0,0,0,0};
+			colorText[] = {1,1,1,1};
+			colorDisabled[] = {1,0,0,0.1};
+		};
 		class ButtonWanted_ICON: life_RscPicture
 		{
 			idc = 1210;

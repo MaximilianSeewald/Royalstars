@@ -55,13 +55,21 @@ class Life_Client_Core {
         class searchVehAction {};
         class seizePlayerAction {};
         class serviceChopper {};
-		class sitDown {};
         class stopEscorting {};
         class storeVehicle {};
         class surrender {};
         class ticketAction {};
         class unrestrain {};
     };
+	
+	class DynMarket {
+		file = "core\dynmarket";
+		class bought {};
+		class update {};
+		class DisplayPrices {};
+		class LoadIntoListbox {};
+		class DYNMARKET_getPrice {};
+	};
 
     class Civilian {
         file = "core\civilian";
@@ -150,6 +158,7 @@ class Life_Client_Core {
         class accType {};
         class actionKeyHandler {};
         class animSync {};
+		class autoSave {};
         class calWeightDiff {};
         class clearVehicleAmmo {};
         class dropItems {};

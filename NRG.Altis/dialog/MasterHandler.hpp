@@ -27,3 +27,5 @@
 #include "FuelStat.hpp"
 #include "newsStation.hpp"
 #include "ui.hpp"
+
+#include "dynmarket_prices.hpp"

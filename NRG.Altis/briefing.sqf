@@ -548,6 +548,7 @@ The following items are illegal to posses:<br/><br/>
             "Polizei und Rettungsdienst",
                 "
 F: Fahrzeug Sirene<br/>
+Ä: Schranken öffnen/schließen<br/>
 L: Radarmessung(Waffe P07 Schallgedämpft muss ausgerüstet sein)<br/>
 Left Shift + L: Blaulicht<br/>
 Left Shift + R: Festnehmen<br/><br/>

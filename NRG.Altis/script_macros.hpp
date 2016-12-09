@@ -46,4 +46,6 @@
 #define LIFEdisplay (uiNamespace getVariable ["playerHUD",displayNull])
 #define LIFEctrl(ctrl) ((uiNamespace getVariable ["playerHUD",displayNull]) displayCtrl ctrl)
 
-
+//Custom Macros
+#define GVAR_MNS missionNamespace getVariable 
+#define GVAR_UINS uiNamespace getVariable

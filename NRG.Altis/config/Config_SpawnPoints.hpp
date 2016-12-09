@@ -64,38 +64,38 @@ class CfgSpawnPoints {
 
         class Cop {
             class Kavala {
-                displayName = "Kavala HQ";
+                displayName = "Kavala";
                 spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
+                conditions = "call life_coplevel < 11";
             };
 
             class Athira {
-                displayName = "Athira HQ";
+                displayName = "Outpost";
                 spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
-                conditions = "";
+                conditions = "call life_coplevel > 13";
             };
 
             class Pyrgos {
-                displayName = "Pyrgos HQ";
+                displayName = "Army HQ";
                 spawnMarker = "cop_spawn_2";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "";
+                conditions = "call life_coplevel > 13";
             };
 
             class Air {
-                displayName = "Air HQ";
+                displayName = "Flughafen";
                 spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-                conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
+                conditions = "call life_coplevel < 11";
             };
 
             class HW {
-                displayName = "HW Patrol";
+                displayName = "FBI HQ";
                 spawnMarker = "cop_spawn_5";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "call life_coplevel >= 3";
+                conditions = "call life_coplevel > 10 && call life_coplevel < 14";
             };
         };
 

@@ -14,6 +14,9 @@ switch (playerSide) do {
     case west: {
 	    ctrlShow[1207,false];
 		ctrlShow[1209,false];
+		
+		ctrlShow[3025,false];
+		ctrlShow[3026,false];
     };
 
     case civilian: {
@@ -27,6 +30,9 @@ switch (playerSide) do {
 		
 		ctrlShow[1207,false];
 		ctrlShow[1209,false];
+		
+		ctrlShow[3025,false];
+		ctrlShow[3026,false];
     };
 };
 
