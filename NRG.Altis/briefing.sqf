@@ -560,6 +560,7 @@ Left Shift + R: Festnehmen<br/><br/>
             "Zivilisten",
                 "
 Left Shift + G: Umschlagen (Waffe benötigt)<br/>
+Left Shift + R: Kabelbinder benutzen<br/>
 Spacebar: Kiste platzieren<br/><br/>
                 "
         ]

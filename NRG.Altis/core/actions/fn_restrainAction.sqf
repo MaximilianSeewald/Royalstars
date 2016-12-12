@@ -13,6 +13,15 @@ if (player distance _unit > 3) exitWith {};
 if (_unit getVariable "restrained") exitWith {};
 if (side _unit isEqualTo west) exitWith {};
 if (player isEqualTo _unit) exitWith {};
+
+//CIV Restrain
+if (side player == civilian) then {
+	if(license_civ_rebel && playerSide == civilian) exitWith { hint "Du benötigst eine Rebellenausbildung um jemanden zu fesseln!"; };
+	if(life_inv_zipties < 1) exitWith { hint "Du hast keine Kabelbinder dabei!"; };
+	life_inv_zipties = life_inv_zipties - 1;
+	hint "Du jemanden gefesselt!";
+}; 
+
 if (!isPlayer _unit) exitWith {};
 //Broadcast!
 

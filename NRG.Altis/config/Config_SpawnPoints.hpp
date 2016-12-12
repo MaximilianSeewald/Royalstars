@@ -16,28 +16,28 @@ class CfgSpawnPoints {
                 displayName = "Kavala";
                 spawnMarker = "civ_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "!license_civ_rebel";
+                conditions = "!license_civ_rebel && license_civ_einbuergerung";
             };
 
             class Athira {
                 displayName = "Athira";
                 spawnMarker = "civ_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
+                conditions = "license_civ_einbuergerung";
             };
 
             class Pyrgos {
                 displayName = "Pyrgos";
                 spawnMarker = "civ_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
+                conditions = "license_civ_einbuergerung_us";
             };
 
             class Sofia {
                 displayName = "Sofia";
                 spawnMarker = "civ_spawn_4";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
+                conditions = "license_civ_einbuergerung_us";
             };
 
             class RebelN {
@@ -97,25 +97,31 @@ class CfgSpawnPoints {
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "call life_coplevel > 10 && call life_coplevel < 14";
             };
+			class Zaros {
+                displayName = "Zaros";
+                spawnMarker = "cop_spawn_6";
+                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
+                conditions = "call life_coplevel < 11";
+            };
         };
 
         class Medic {
             class Kavala {
-                displayName = "Kavala Hospital";
+                displayName = "Kavala";
                 spawnMarker = "medic_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class Athira {
-                displayName = "Athira Regional";
+                displayName = "Athira";
                 spawnMarker = "medic_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class Pyrgos {
-                displayName = "Pyrgos Hospital";
+                displayName = "Pyrgos";
                 spawnMarker = "medic_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";

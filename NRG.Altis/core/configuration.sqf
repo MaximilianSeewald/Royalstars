@@ -11,6 +11,18 @@
 ****** Backend Variables *****
 *****************************
 */
+//Perso
+fvs_persoReady = false;
+fvs_hakenregeln = false;
+fvs_checking = false;
+fvs_hakenrichtig = false;
+fvs_namenInfo = false;
+fvs_checking_a = false;
+fvs_namen_a = false;
+fvs_hakendaten = false;
+
+loud_add = false;
+
 life_query_time = time;
 life_action_delay = time;
 life_trunk_vehicle = objNull;

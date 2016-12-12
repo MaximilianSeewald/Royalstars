@@ -1,0 +1,10 @@
+Maximilian Seewald
+
+
+German Version/Deutsche Version:
+	Allgemeine Informationen:
+	1. Sie dürfen Änderungen in meinen Scripts/Funktionen vornehmen. 
+	2. Der Header darf angepasst werden, aber mein Name sowie der Dateiname darf niemals entfernt oder unkenntlich gemacht werden!
+	3. Die Information zur Nutzungsbedingung "License-MS.txt" darf ebenfalls nicht entfernt oder unkenntlich gemacht werden!
+	4. Sie dürfen niemals gegen Geld oder sonstige Bezahlungsmittel meine Scripts/Funktionen weitergeben!
+	5. Sie dürfen niemals gegen Geld oder sonstige Bezahlungsmittel meine Scripts/Funktionen einrichten!
